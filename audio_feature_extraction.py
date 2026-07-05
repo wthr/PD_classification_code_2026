@@ -118,7 +118,11 @@ if __name__=='__main__':
     n = 1000
     x = np.random.randn(n)
 
-"""# # Using code modified from https://github.com/drfeinberg/PraatScripts"""
+#Voice feature extraction adapted from:
+#https://github.com/drfeinberg/PraatScripts
+
+#Original author: David Feinberg
+#Modified for this project.
 
 # This is the function to measure voice pitch
 def measurePitch(voiceID, f0min, f0max, unit):
